@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>test1</title>
+    <style>
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    .header{
+        width: 100%;
+        height: 60px;
+        background-color: rgb(242,242,242)
+    }
+    .left_content{
+        float: left;
+        margin-left: 100px;
+        height: 60px;
+        line-height: 60px;
+    }
+ 
+    .right_content{
+        height: 60px;
+        width: 600px;
+        float:left;
+        margin-left: 480px;
+        display: flex;
+        justify-content:space-between;
+        align-items: center
+    }
+    .right_content>div{
+            text-align: center;
+            width: 100px;
+            height: 60px;
+            line-height: 60px;
+    }
+    .right_content>div:hover{
+        border-bottom: 3px solid black;
+    }
+    .icon{
+        float: right;
+        width: 60px;
+        height: 60px;
+        background-color: rgb(209, 51,64)
+    }
+    .main{
+        background-color: rgb(170,170,170);
+        width: 100%;
+        height: 500px;
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around
+    }
+  
+       
+    </style>
+</head>
+<body>
+    <div>
+        <div class="header">
+           <div class="left_content">1111111</div>
+           <div class="right_content">
+              <div>1</div>
+              <div>2</div>
+              <div>3</div>
+              <div>4</div>
+           </div>
+           <div class="icon"><img src="" alt=""></div>
+        </div>
+        <div class="main"></div>
+        <div class="footer">
+            <div>再见</div>
+            <div>你好</div>
+            <div>晚安</div>
+        </div>
+    </div>
+</body>
+</html>
